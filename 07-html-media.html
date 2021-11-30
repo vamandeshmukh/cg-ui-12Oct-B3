@@ -6,45 +6,86 @@
 </head>
 
 <body>
-    <h1>Including Media in HTML</h1>
-    <p>Local Image</p>
-    <img src="./capgemini-logo.jpg" alt="Capgemini Logo">
-    <hr />
-    <p>External Image</p>
-    <img src="https://i.ytimg.com/vi/kTlvxuuRWdE/sddefault.jpg" alt="Capgemini Logo">
 
-    <hr />
-    <p>Local / External Video</p>
+    <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        Including Media in HTML</h1>
 
-    <hr />
-    <p>Local / External Audio</p>
+    <div style="color: darkblue; font-family: 'Courier New', Courier, monospace;">
+        <p>Local Image</p>
+        <img src="./capgemini-logo.jpg" alt="Capgemini Logo">
+        <hr />
+        <p>External Image</p>
+        <img src="https://i.ytimg.com/vi/kTlvxuuRWdE/sddefault.jpg" alt="Capgemini Logo">
+
+        <hr />
+        <h2>Video</h2>
+
+        <hr />
+        <p>Local Video</p>
+        <video controls>
+            <source width="480" src="../media/Bisk_Farm_Marie_Bangla.mp4" type="video/mp4 " alt="gameVideo"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen />
+        </video>
+        <hr />
+        <p>External Video</p>
+        <video controls loop>
+            <source width="480" src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
+                type="video/mp4 " alt="gameVideo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen />
+        </video>
+        <hr />
+        <h2>Audio</h2>
+        <hr />
+        <p>Local Audio</p>
+        <audio controls loop>
+            <source src="../media/Neeli_Neeli_Aakasam.mp3" type="audio/mp3">
+        </audio>
+        <hr />
+        <p>External Audio</p>
+        <audio controls loop>
+            <source src="https://cdn.pagalworld.us/songs/bollywood/ADHM%20-%20Ae%20Dil%20Hai%20Mushkil.mp3"
+                type="audio/mp3">
+        </audio>
+        <hr />
+
+        <p>Embed YouTube Video</p>
+        <iframe width="693" height="390" src="https://www.youtube.com/embed/C6fN3GizNRE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <hr />
+        <p>Embed a Tweet</p>
+        <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">The future of industry is intelligent! Discover diverse perspectives in the third
+                edition
+                of our <a href="https://twitter.com/hashtag/CxO?src=hash&amp;ref_src=twsrc%5Etfw">#CxO</a> journal
+                &quot;Conversations for Tomorrow&quot; exploring the global impact of <a
+                    href="https://twitter.com/hashtag/IntelligentIndustry?src=hash&amp;ref_src=twsrc%5Etfw">#IntelligentIndustry</a>.
+                Subscribe to our mailing list to get your copy once live: <a
+                    href="https://t.co/gTVaVeiNqB">https://t.co/gTVaVeiNqB</a> <a
+                    href="https://t.co/0FLEHHRA3B">pic.twitter.com/0FLEHHRA3B</a></p>&mdash; Capgemini (@Capgemini) <a
+                href="https://twitter.com/Capgemini/status/1465342377351069698?ref_src=twsrc%5Etfw">November 29,
+                2021</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <hr />
+        <p>Embed an FB Post</p>
+        <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCapgemini%2Fposts%2F4618705181519882&show_text=true&width=500"
+            width="500" height="437" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <hr />
+        <p>Embed a LinkedIn Post</p>
+
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6871414111620669440" height="619"
+            width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
-    <hr />
-    <p>Embed YouTube Video</p>
-    <iframe width="693" height="390" src="https://www.youtube.com/embed/C6fN3GizNRE" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-    <hr />
-    <p>Embed a Tweet</p>
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">The future of industry is intelligent! Discover diverse perspectives in the third edition
-            of our <a href="https://twitter.com/hashtag/CxO?src=hash&amp;ref_src=twsrc%5Etfw">#CxO</a> journal
-            &quot;Conversations for Tomorrow&quot; exploring the global impact of <a
-                href="https://twitter.com/hashtag/IntelligentIndustry?src=hash&amp;ref_src=twsrc%5Etfw">#IntelligentIndustry</a>.
-            Subscribe to our mailing list to get your copy once live: <a
-                href="https://t.co/gTVaVeiNqB">https://t.co/gTVaVeiNqB</a> <a
-                href="https://t.co/0FLEHHRA3B">pic.twitter.com/0FLEHHRA3B</a></p>&mdash; Capgemini (@Capgemini) <a
-            href="https://twitter.com/Capgemini/status/1465342377351069698?ref_src=twsrc%5Etfw">November 29, 2021</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <hr />
-    <p>Embed a FB Post</p>
-
-
-
-
+    </div>
 </body>
 
 </html>
