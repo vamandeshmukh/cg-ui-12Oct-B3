@@ -18,7 +18,7 @@ let obj = new SomeClass(); // JavaScript
 obj.fun();
 fun2();
 
-// In JS, objects are created oin two ways - 
+// In JS, objects are created in two ways - 
 // 1. object of a class 
 let obj2 = new SomeClass(); // JavaScript 
 // 2. proper JavaScript object / json object  
