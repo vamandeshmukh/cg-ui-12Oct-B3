@@ -31,4 +31,6 @@ console.log(typeof(num));
 num = true;
 console.log(num);
 console.log(typeof(num));
+// null 
+
 
