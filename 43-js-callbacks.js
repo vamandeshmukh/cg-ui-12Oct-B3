@@ -45,3 +45,16 @@ getFun().then((obj) => {
     console.log("Error...");
 });
 
+// use in React 
+// const empData;
+// axios.get("http:localhost:8082/getemp") 
+//     .then((emp) => {
+//         empData = emp;
+//     })
+//     .catch((e) => {
+//         // 
+//     });
+
+
+
+
