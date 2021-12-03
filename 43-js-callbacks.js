@@ -1,11 +1,17 @@
 
 console.log("output 1");
 
-setTimeout(
-    () => {
-        console.log("output 2"); // call to DB 
-    }, 3000);
+const getFun = () => {
 
-console.log("output 3"); //  depends on output  2
+    setTimeout(() => {
+        return { message: "fun meesage" };
+    }, 2000);
+}
+
+const fun = getFun();
+
+console.log(fun.message); //  depends on output  2
+
+
 
 
