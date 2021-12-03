@@ -26,6 +26,7 @@
 const addNums = (i, j) => {
     console.log(i + j);
 }
+
 addNums(10, 20); // 30 
 addNums(10); // NaN 
 addNums(10, 20, 30); // 30 
