@@ -17,6 +17,14 @@ const args = () => {
 }
 
 // success 
-fun(args);
+// fun(args);
 
+const fun2 = (abc) => {
+    console.log(abc);
+}
+
+fun2(20);
+
+const aaa = 10;
+fun2(aaa);
 
