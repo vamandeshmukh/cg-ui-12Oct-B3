@@ -23,13 +23,13 @@ const fun2 = () => {
 
 fun1(fun2);
 
-// fun1(() => {
-//     console.log(`funX`);
-// });
+fun1(() => {
+    console.log(`funX`);
+});
 
-// fun1(function () {
-//     console.log(`old style funX`);
-// });
+fun1(function () {
+    console.log(`old style funX`);
+});
 
 
 
