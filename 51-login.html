@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
 <head>
 
 </head>
 
 <body>
-    <div>
-        <h1>Login</h1>
-        <form method="post" action="./52-welcome.html">
-            <input type="text" id="userName" name="userName" placeholder="Enter username">
-            <input type="password" id="password" name="password" placeholder="Enter password">
-            <input type="submit" id="submit" name="submit" value="Login" onclick="loginFunction()">
-        </form>
+    <div class="container">
+        <div class="col-4"> 
+            <form class="form form-group mt-3" method="post" action="./52-welcome.html">
+                <h1 class="display-4 text-primary mt-3 mb-3" >Login</h1>
+                <input class="form-control mt-3" type="text" id="userName" name="userName" placeholder="Enter username">
+                <input class="form-control mt-3" type="password" id="password" name="password" placeholder="Enter password">
+                <input class="form-control btn btn-primary mt-3" type="submit" id="submit" name="submit" value="Login" onclick="loginFunction()">
+            </form>
+    
+        </div>
     </div>
     <script src="./50-script.js"></script>
 </body>
